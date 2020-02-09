@@ -1,0 +1,9 @@
+this = {
+    accountId: ' udrtkffceajnrxqpqhbu '
+    channelId: ' xtrjvyqduqyk5wzvwazj '
+    hostNameForAnalytics: ' TODO: unique identifier used for analytics '
+    ...
+}
+cfg = BoxCastConfig()
+api = BoxCastAPI()
+broadcasts = api.GetBroadcastsForChannel(cfg.xtrjvyqduqyk5wzvwazj)
